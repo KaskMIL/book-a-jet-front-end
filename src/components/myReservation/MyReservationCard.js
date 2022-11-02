@@ -13,8 +13,6 @@ function MyReservationCard(props) {
     city, startingDay, finishDay, jetId, reservationId,
   } = props;
 
-  console.log(reservationId);
-
   const { jets } = useSelector((state) => state.jets);
   const reservation = { id: reservationId };
   const dispatch = useDispatch();
