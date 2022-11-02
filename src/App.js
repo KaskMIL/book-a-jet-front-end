@@ -40,7 +40,7 @@ function App() {
     } else {
       dispatch(setUnAuthenticated());
     }
-  }, [token]);
+  }, [token, dispatch]);
 
   return (
     <>
